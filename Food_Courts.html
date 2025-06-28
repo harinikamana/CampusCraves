@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Courts</title>
+    <style>
+        .foodcourt-title {
+        text-align: center;
+        font-size: 36px;
+        margin: 40px 0 20px;
+        color: #2C2C2C;
+        }
+
+        .foodcourt-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        padding: 0 20px 40px;
+        }
+
+        .foodcourt-card {
+        width: 280px;
+        background-color: #FFF7E9;
+        border-radius: 20px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        text-align: center;
+        padding: 20px;
+        }
+
+        .foodcourt-card img {
+        width: 100%;
+        height: 180px;
+        border-radius: 15px;
+        object-fit: cover;
+        margin-bottom: 15px;
+        }
+
+        .foodcourt-card h3 {
+        margin-bottom: 5px;
+        color: #264653;
+        }
+
+        .foodcourt-card p {
+        margin-bottom: 10px;
+        color: #5C5C5C;
+        }
+
+        .view-btn {
+        display: inline-block;
+        padding: 10px 16px;
+        background-color: #F4A261;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: bold;
+        transition: background-color 0.3s;
+        }
+
+        .view-btn:hover {
+        background-color: #E76F51;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="foodcourt-title">🍴 Food Courts</h1>
+    <div class="foodcourt-container">
+        <div class="foodcourt-card">
+            <img src="images/north_indian.jpg" alt="North Indian Canteen">
+            <h3>North Indian Canteen</h3>
+            <p>Near Block A</p>
+            <a href="north_menu.html" class="view-btn">View Menu</a>
+        </div>
+
+        <div class="foodcourt-card">
+            <img src="images/south_indian.webp" alt="South Indian Corner">
+            <h3>South Indian Corner</h3>
+            <p>Behind Library</p>
+            <a href="menu-south.html" class="view-btn">View Menu</a>
+        </div>
+
+        <div class="foodcourt-card">
+            <img src="images/noodles.jpg" alt="Noodles Hub">
+            <h3>Noodles Hub</h3>
+            <p>Next to Sports Complex</p>
+            <a href="menu-snacks.html" class="view-btn">View Menu</a>
+        </div>
+    </div>
+</body>
+</html>
